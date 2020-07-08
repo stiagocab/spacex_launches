@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/stiagocab/spacex_launches/static/css/main.7ba86e95.chunk.css",
+    "main.js": "/stiagocab/spacex_launches/static/js/main.594223b9.chunk.js",
+    "main.js.map": "/stiagocab/spacex_launches/static/js/main.594223b9.chunk.js.map",
+    "runtime-main.js": "/stiagocab/spacex_launches/static/js/runtime-main.44aa3381.js",
+    "runtime-main.js.map": "/stiagocab/spacex_launches/static/js/runtime-main.44aa3381.js.map",
+    "static/js/2.73fe22af.chunk.js": "/stiagocab/spacex_launches/static/js/2.73fe22af.chunk.js",
+    "static/js/2.73fe22af.chunk.js.map": "/stiagocab/spacex_launches/static/js/2.73fe22af.chunk.js.map",
+    "index.html": "/stiagocab/spacex_launches/index.html",
+    "precache-manifest.b4ec77e204956dd4649051e0c59c8bc6.js": "/stiagocab/spacex_launches/precache-manifest.b4ec77e204956dd4649051e0c59c8bc6.js",
+    "service-worker.js": "/stiagocab/spacex_launches/service-worker.js",
+    "static/css/main.7ba86e95.chunk.css.map": "/stiagocab/spacex_launches/static/css/main.7ba86e95.chunk.css.map",
+    "static/js/2.73fe22af.chunk.js.LICENSE.txt": "/stiagocab/spacex_launches/static/js/2.73fe22af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44aa3381.js",
+    "static/js/2.73fe22af.chunk.js",
+    "static/css/main.7ba86e95.chunk.css",
+    "static/js/main.594223b9.chunk.js"
+  ]
+}
