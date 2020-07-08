@@ -2,6 +2,7 @@
   "name": "launchy",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/stiagocab/spacex_launches",
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
     "@testing-library/jest-dom": "^4.2.4",
@@ -19,11 +20,13 @@
   },
   "scripts": {
     "build:tailwind": "tailwindcss build src/css/tailwind.css -o src/css/tailwind.output.css",
-    "prebuild": "npm run build:tailwind",
     "prestart": "npm run build:tailwind",
     "start": "react-scripts start",
+    "prebuild": "npm run build:tailwind",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -40,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
