@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
-import "./css/tailwind.css";
 
 function App() {
   return (
