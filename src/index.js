@@ -4,7 +4,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "react-apollo";
-import "./css/tailwind.css"
+import "./css/tailwind.output.css"
 
 let client = new ApolloClient({
   uri: "https://api.spacex.land/graphql/",
