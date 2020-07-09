@@ -1,0 +1,20 @@
+:root {
+  --primary: #005288;
+}
+
+.page-button {
+  color: var(--primary);
+}
+
+.page-button.current-page {
+  background-color: var(--primary);
+  color: white;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.border-primary {
+  border-color: var(--primary);
+}
