@@ -12,7 +12,7 @@ export default function LaunchBox({ data }) {
       ? "https://cdn.images.express.co.uk/img/dynamic/151/590x/spacex-launch-today-how-to-see-spacex-starlink-uk-tonight-1301292.jpg?r=1593156651221"
       : links.flickr_images[
           randomIntFromInterval(0, links.flickr_images.length - 1)
-        ].replace("o.jpg", "w.jpg");
+        ].replace("o.jpg", "n.jpg");
 
   return (
     <article className="w-full md:w-1/4 px-2 mb-10">
@@ -20,6 +20,7 @@ export default function LaunchBox({ data }) {
         {links && (
           <img
             src={uriImg}
+            srcSet={`${uriImg} 500w, ${uriImg.replace("c.jpg")} 800w`}
             alt="launch"
             className="w-full h-64 md:h-32 lg:h-64 object-cover bg-gray-300"
           />

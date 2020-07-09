@@ -76,10 +76,15 @@ const About = ({ data }) => (
       />
     </div>
     {/* IMAGES */}
-    <div className="w-full lg:pr-10 flex flex-wrap mt-10">
+    <div className="w-full flex flex-wrap mt-10">
       {React.Children.toArray(
         Object.keys(data.launchesPast[0].links.flickr_images).map((x) => {
           let src = data.launchesPast[0].links.flickr_images[x].replace(
+            "o.jpg",
+            "s.jpg"
+          );
+          let srcDesk = data.launchesPast[0].links.flickr_images[x];
+          let srcMob = data.launchesPast[0].links.flickr_images[x].replace(
             "o.jpg",
             "w.jpg"
           );
@@ -87,6 +92,7 @@ const About = ({ data }) => (
             <img
               alt="spacex"
               src={src}
+              srcSet={`${srcMob} 500w, ${srcDesk} 800w`}
               className="w-1/2 md:w-1/4 object-cover"
             />
           );
