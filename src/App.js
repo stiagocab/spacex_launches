@@ -14,7 +14,8 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/home" component={HomePage} />
-        <Route path="/about" component={AboutPage} />
+        <Route exact path="/about" component={AboutPage} />
+        <Route path="*" component={"ERROR 404"} />
         <Route path="/">
           <Redirect to="/home" />
         </Route>
